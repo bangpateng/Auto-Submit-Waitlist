@@ -3,7 +3,7 @@ Ini Cara Untuk Mengisi Whitelist Airdrop di Website Dengan Banyak Email
 
 ### Untuk Menjalankan Ini pastikan Kalian Sudah Install Python & git di Pc Kalian
 
-### Buka Vscode Anda Atau Buka Terminal Kalian dan Install Bahan
+### 1. Buka Vscode Anda Atau Buka Terminal Kalian dan Install Bahan
 
 ```
 pip install pandas selenium time
@@ -30,7 +30,7 @@ nano main.py
 - Pilih Sesuai Versi Google Chrome Yang Kalian Pakai Lalu `Extract` dan Lihat di mana lokasi Filenya
 - Masukan Jalur Path nya dan `CTRL` + `X` `Y` `ENTER` Untuk Save
 
-### Mulai Jalankan
+### 2. Mulai Jalankan
 
 ```
 main.py
