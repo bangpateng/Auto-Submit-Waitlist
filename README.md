@@ -22,14 +22,23 @@ nano emaildata.csv
 Masukan Data Email Email Yang Kalian Gunakan `CTRL` + `X` `Y` `ENTER` Untuk Save
 
 
-- Download Chrome Driver : https://chromedriver.chromium.org/downloads
-- Pastikan Chrome Driver Yang di Download Pilih Sesuai Versi Google Chrome Yang Kalian Pakai
+```
+ls
+nano main.py
+```
+- Ganti Bagian `INI_ISI_DENGAN_DIREKTORY_PATH_CHROME_DRIVER_ANDA` dengan Lokasi Path Kalian
+- Contoh : C:/Users/BANG PATENG/Downloads/chromedriver_win32/chromedriver.exe
+- Download Jika Anda Belom memilikinya di : https://chromedriver.chromium.org/downloads
+- Pilih Sesuai Versi Google Chrome Yang Kalian Pakai Lalu `Extract` dan Lihat di mana lokasi Filenya
+- Masukan Jalur Path nya dan `CTRL` + `X` `Y` `ENTER` Untuk Save
 
 
 ### 2. Mulai Jalankan
 
 ```
-main.py
+python main.py
+atau
+python3 main.py
 ```
 
 - Masukan Link Website Waitlist `ENTER`
