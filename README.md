@@ -20,7 +20,7 @@ ls
 nano emaildata.csv
 ```
 Masukan Data Email Email Yang Kalian Gunakan `CTRL` + `X` `Y` `ENTER` Untuk Save
-```
+
 
 - Download Chrome Driver : https://chromedriver.chromium.org/downloads
 - Pastikan Chrome Driver Yang di Download Pilih Sesuai Versi Google Chrome Yang Kalian Pakai
