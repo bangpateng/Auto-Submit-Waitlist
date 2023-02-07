@@ -2,6 +2,7 @@ import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
+import os
 
 website = input("Masukan Link Website: ")
 print("Link website yang dimasukkan:", website)
@@ -16,7 +17,7 @@ def mulai():
     recycle = data.shape[0]
     for i in range(recycle):
         print(i)
-        driver = webdriver.Chrome(executable_path='INI_ISI_DENGAN_DIREKTORY_PATH_CHROME_DRIVER_ANDA')
+        driver = webdriver.Chrome(executable_path=os.path.join(os.getcwd(), "chromedriver.exe"))
         driver.get(website)
         time.sleep(3)
 
