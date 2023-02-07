@@ -41,3 +41,5 @@ main.py
 - Masukan XPATH Button (Silahkan Kalian Inspect Element di Bagian Button Tombol Join Waitlist dan Copy XPATH) Masukan ke Terminal
 - `ENTER` dan Auto Script Berjalan
 - Done, Selesai
+
+Note : Script Ini Berjalan di Website Yang hanya Mengisi Email dan Klik Join Waitlist Saja (Tanpa Ada Verifikasi Email)
